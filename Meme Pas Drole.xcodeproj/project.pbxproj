@@ -11,6 +11,9 @@
 		DEFF7F362A03C91C008E294B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF7F352A03C91C008E294B /* ContentView.swift */; };
 		DEFF7F382A03C91F008E294B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFF7F372A03C91F008E294B /* Assets.xcassets */; };
 		DEFF7F3B2A03C91F008E294B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFF7F3A2A03C91F008E294B /* Preview Assets.xcassets */; };
+		DEFF7F422A03D1EE008E294B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF7F412A03D1EE008E294B /* MenuView.swift */; };
+		DEFF7F442A03D21C008E294B /* MatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF7F432A03D21C008E294B /* MatchManager.swift */; };
+		DEFF7F462A03D239008E294B /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF7F452A03D239008E294B /* Misc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		DEFF7F352A03C91C008E294B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEFF7F372A03C91F008E294B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEFF7F3A2A03C91F008E294B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEFF7F412A03D1EE008E294B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		DEFF7F432A03D21C008E294B /* MatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchManager.swift; sourceTree = "<group>"; };
+		DEFF7F452A03D239008E294B /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +57,13 @@
 		DEFF7F322A03C91C008E294B /* Meme Pas Drole */ = {
 			isa = PBXGroup;
 			children = (
+				DEFF7F432A03D21C008E294B /* MatchManager.swift */,
 				DEFF7F332A03C91C008E294B /* Meme_Pas_DroleApp.swift */,
 				DEFF7F352A03C91C008E294B /* ContentView.swift */,
 				DEFF7F372A03C91F008E294B /* Assets.xcassets */,
 				DEFF7F392A03C91F008E294B /* Preview Content */,
+				DEFF7F412A03D1EE008E294B /* MenuView.swift */,
+				DEFF7F452A03D239008E294B /* Misc.swift */,
 			);
 			path = "Meme Pas Drole";
 			sourceTree = "<group>";
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEFF7F362A03C91C008E294B /* ContentView.swift in Sources */,
+				DEFF7F442A03D21C008E294B /* MatchManager.swift in Sources */,
+				DEFF7F422A03D1EE008E294B /* MenuView.swift in Sources */,
+				DEFF7F462A03D239008E294B /* Misc.swift in Sources */,
 				DEFF7F342A03C91C008E294B /* Meme_Pas_DroleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +286,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +315,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
